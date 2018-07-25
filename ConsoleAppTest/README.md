@@ -1,5 +1,6 @@
 # DMS.EntityFrameworkCore  
-  
+
+![](http://www.baidu.com/img/bdlogo.gif "我的logo")
   
 一、基于EntityFrameworkCore框架扩展的基础组件，目前以泛型的方式实现添删改查等操作，其中包扩展分页查询，分组，排序等方法，目前还在完善中  
   
