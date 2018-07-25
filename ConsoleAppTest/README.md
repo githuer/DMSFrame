@@ -39,7 +39,7 @@ SysJobLog sysJobLog = new SysJobLog()
     CreateTime = DateTime.Now,  
     };  
 var intFlag = service.Insert(sysJobLog);  
-    
+```
 //批量数据插入  
 ```C#
 List<SysJobLog> jobList = new List<SysJobLog>();  
@@ -57,7 +57,7 @@ for (int i = 0; i < 100; i++)
         jobList.Add(sysJobLog);  
      }  
 var intFlag = service.Insert(jobList);  
-                          
+```
                           
 4、Update操作    
 //单条记录修改  
